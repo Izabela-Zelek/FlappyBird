@@ -355,7 +355,7 @@ void Game::draw()
 	//	std::cout << "Next pillar: " << index << std::endl;
 
 	text.setFillColor(sf::Color::White);
-	string AIorPlayer = ai ? "AI" : "PLAYER";
+	string AIorPlayer = ai ? "IZZY AI" : "PLAYER";
 	text.setString("Mode: "+ AIorPlayer);
 	text.setPosition(sf::Vector2f(10, 10));
 	m_window.draw(text);

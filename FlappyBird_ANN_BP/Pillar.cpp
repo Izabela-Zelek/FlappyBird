@@ -25,7 +25,7 @@ Pillar::~Pillar()
 
 void Pillar::init(int start)
 {
-	gap = 100;	// Betwen top and bottom pillar.
+	gap = 150;	// Betwen top and bottom pillar.
 
 	pillarWidth = 50;
 	x = start;
